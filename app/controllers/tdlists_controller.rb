@@ -13,6 +13,8 @@ class TdlistsController < ApplicationController
 
   def edit
     @tdlist = Tdlist.find(params[:id])
+
+    
   end
 
   def create
